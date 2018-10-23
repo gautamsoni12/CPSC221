@@ -1,0 +1,4 @@
+/Users/gautamsoni/Desktop/pa2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/gautamsoni/Desktop/pa2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gautamsoni/Desktop/pa2/cmake-build-debug/CMakeFiles/test.dir
+/Users/gautamsoni/Desktop/pa2/cmake-build-debug/CMakeFiles/partners.txt.dir

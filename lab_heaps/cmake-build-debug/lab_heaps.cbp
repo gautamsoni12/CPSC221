@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab_heaps"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_heaps">
+				<Option output="/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/lab_heaps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab_heaps"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_heaps/fast">
+				<Option output="/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/lab_heaps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab_heaps/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gautamsoni/Desktop/lab_heaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/coloredout.cpp">
+			<Option target="lab_heaps"/>
+		</Unit>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/coloredout.h">
+			<Option target="lab_heaps"/>
+		</Unit>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/heap.cpp">
+			<Option target="lab_heaps"/>
+		</Unit>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/heap.h">
+			<Option target="lab_heaps"/>
+		</Unit>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/printheap.cpp">
+			<Option target="lab_heaps"/>
+		</Unit>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/printtree.h">
+			<Option target="lab_heaps"/>
+		</Unit>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/random.h">
+			<Option target="lab_heaps"/>
+		</Unit>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/soln_testheap.out">
+			<Option target="lab_heaps"/>
+		</Unit>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/testheap.cpp">
+			<Option target="lab_heaps"/>
+		</Unit>
+		<Unit filename="/Users/gautamsoni/Desktop/lab_heaps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+/Users/gautamsoni/Desktop/hw3code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/gautamsoni/Desktop/hw3code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gautamsoni/Desktop/hw3code/cmake-build-debug/CMakeFiles/hw3code.dir

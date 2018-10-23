@@ -1,0 +1,77 @@
+#ifndef _GRILL_H_
+#define _GRILL_H_
+
+#include "linkedlist.h"
+
+LinkedList rack;
+
+// Switches the kebabs at pos1 and pos2
+// Returns true if positions are valid and swap can be performed
+// Returns false if positions are invalid
+bool swap(unsigned int pos1, unsigned int pos2)
+{
+    if (pos1 <= (rack.size()) && pos2 <= (rack.size()))
+    {
+        unsigned int temp = pos1;
+        pos1 = pos2;
+        pos2 = temp;
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+// remove and return the kebab at a 1-indexed
+// position on the grill
+// return NULL if pos invalid
+Kebab *request(unsigned int pos)
+{
+    const *char returnKebab = NULL;
+
+    if (pos <= rack.size()){
+
+        returnKebab = rack[pos-1];
+        rack.removeAt(pos-1);
+
+    }
+
+    return returnKebab;
+
+}
+
+// remove and return the leftmost kebab matching
+// at least the ingredients of r, in any order
+// return NULL if no match found
+Kebab *request(Kebab &r);
+{
+    const *kebab requestedKebab = &r;
+    const kebab matchingKebab;
+    for (i=0;i<rack.size();i++){
+
+        if (rack[i].hasSameIngredients(requestedKebab)){
+
+            matchingKebab = rack[i];
+            rack.removeAt[i];
+
+        }
+    }
+
+    return NULL;
+}
+
+void addKebab(Kebab &n);
+
+// arrange in decreasing order of # of meat items
+void sortByMeat()
+{
+}
+
+// returns a vector containing the string representation of all
+// kebabs on the grill
+std::vector<std::string> showKebabs()
+{
+}
+
+#endif

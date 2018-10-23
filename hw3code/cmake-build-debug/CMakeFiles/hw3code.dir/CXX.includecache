@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gautamsoni/Desktop/hw3code/lucky.cpp
+lucky.h
+/Users/gautamsoni/Desktop/hw3code/lucky.h
+iostream
+-
+cstring
+-
+string
+-
+vector
+-
+stdexcept
+-
+math.h
+-
+
+/Users/gautamsoni/Desktop/hw3code/lucky.h
+

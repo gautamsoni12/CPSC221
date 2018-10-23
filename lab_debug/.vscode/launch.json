@@ -1,0 +1,29 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+        {
+            "name": "launch.json",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceRoot}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb"
+        },
+            {
+                "name": "/Users/gautamsoni/Desktop/lab_debug/sketchify.cpp",
+                "type": "cppdbg",
+                "request": "launch",
+                "program": "enter program name, for example ${workspaceRoot}/a.out",
+                "args": [],
+                "stopAtEntry": false,
+                "cwd": "${workspaceRoot}",
+                "environment": [],
+                "externalConsole": true,
+                "MIMode": "lldb"
+            }
+        ]
+    }
